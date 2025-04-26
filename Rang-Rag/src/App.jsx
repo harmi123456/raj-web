@@ -21,21 +21,17 @@ export default function App() {
   }, [])
 
   return (
-    <div>
-    
-            <div className="fade-in">
-              <BrowserRouter>
-                <Routes>
-                  <Route path='/' element={<Home />}></Route>
-                  <Route path='/projects' element={<Projects />}></Route>
-                  <Route path='/services' element={<Services />} ></Route>
-                  <Route path='/aboutUs' element={<About />}></Route>
-                  <Route path='/blog' element={<Blog />}></Route>
-                  <Route path='/ContactUs' element={<Contact />}></Route>
-                </Routes>
-              </BrowserRouter>
-            </div>
-      
-    </div>
+      <div className="fade-in">
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Home />}></Route>
+            <Route path='/projects' element={<Projects />}></Route>
+            <Route path='/services' element={<Services />} ></Route>
+            <Route path='/aboutUs' element={<About />}></Route>
+            <Route path='/blog' element={<Blog />}></Route>
+            <Route path='/ContactUs' element={<Contact />}></Route>
+          </Routes>
+        </BrowserRouter>
+      </div>
   )
 }
