@@ -21,7 +21,7 @@ export default function App() {
   }, [])
 
   return (
-      <div className="fade-in">
+      <div>
         <BrowserRouter>
           <Routes>
             <Route path='/' element={<Home />}></Route>
