@@ -3,7 +3,6 @@ import React from 'react'
 export default function Vr() {
     return (
         <div>
-            <h1>Vr</h1>
             <div style={{ position: 'relative', width: '100%', paddingTop: '56.25%' }}>
                 <iframe
                     src="https://virtualtour-blond.vercel.app/"

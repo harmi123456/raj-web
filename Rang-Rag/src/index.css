@@ -1612,7 +1612,7 @@ body.no-scroll {
 
 
 @media (max-width: 768px) {
-  .virtual{
+  .virtual {
     flex-direction: column;
   }
 }
@@ -3452,14 +3452,32 @@ body.no-scroll {
 
 
 
+.virtuual-tour{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 
 
 
-
-.virtual-tour{
+.virtual-tour1 {
   height: 200px;
   width: 20%;
-  background-color: #011e03;
+  background: url('/img/vr1.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+
+.virtual-tour2 {
+  height: 200px;
+  width: 20%;
+  background: url('/img/museum.png');
+  background-size: cover;
+  background-position: center;
   border-radius: 20px;
   margin: 20px;
 }

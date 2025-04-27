@@ -899,8 +899,10 @@ export default function Projects() {
 
 
 
-      <Link to='/vr'><div className="virtual-tour"></div></Link>
-      <Link to='/vr2'><div className="virtual-tour"></div></Link>
+      <div className="virtuual-tour">
+        <Link to='/vr' className="virtual-tour1"></Link>
+        <Link to='/vr2' className="virtual-tour2"></Link>
+      </div>
 
 
       <div className="gallery-container">
