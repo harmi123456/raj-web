@@ -7,6 +7,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Vr from './components/Vr';
+import Vr2 from './components/Vr2';
 
 
 export default function App() {
@@ -32,6 +33,7 @@ export default function App() {
             <Route path='/blog' element={<Blog />}></Route>
             <Route path='/ContactUs' element={<Contact />}></Route>
             <Route path='/vr' element={<Vr/>}></Route>
+            <Route path='/vr2' element={<Vr2/>}></Route>
           </Routes>
         </BrowserRouter>
       </div>
