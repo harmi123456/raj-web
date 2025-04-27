@@ -3440,3 +3440,26 @@ body.no-scroll {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.virtual-tour{
+  height: 200px;
+  width: 20%;
+  background-color: #011e03;
+  border-radius: 20px;
+  margin: 20px;
+}

@@ -898,6 +898,10 @@ export default function Projects() {
       </div> */}
 
 
+
+      <Link to='/vr'><div className="virtual-tour"></div></Link>
+
+
       <div className="gallery-container">
         {/* Folder view */}
         {!currentFolder && (
