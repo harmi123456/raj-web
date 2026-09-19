@@ -223,7 +223,7 @@ header {
   }
 
   nav {
-    width: 40%;
+    width: 48%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -1088,7 +1088,9 @@ header {
       top: 60px;
       display: flex;
       flex-direction: column;
-      height: 200px;
+      min-height: 260px;
+      height: auto;
+      padding: 15px 0;
       border: none;
       left: 0;
       width: 80%;
@@ -1250,7 +1252,9 @@ header {
       top: 60px;
       display: flex;
       flex-direction: column;
-      height: 200px;
+      min-height: 260px;
+      height: auto;
+      padding: 15px 0;
       border: none;
       left: 0;
       width: 80%;
@@ -1418,7 +1422,9 @@ header {
       top: 60px;
       display: flex;
       flex-direction: column;
-      height: 200px;
+      min-height: 260px;
+      height: auto;
+      padding: 15px 0;
       border: none;
       left: 0;
       width: 80%;
