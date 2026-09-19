@@ -236,7 +236,7 @@ export default function Home() {
                 <nav className={isNavVisible ? 'show' : ''}>
                     <Link to='/' style={{ color: 'green', fontWeight: 'bold' }}>Home</Link>
                     <Link to='/projects'>Projects</Link>
-                    <a href="https://rangragstudio.myportfolio.com/" target='_blank' rel="noopener noreferrer">Portfolio</a>
+                    <a href="https://rangragstudio.myportfolio.com/" rel="noopener noreferrer">Portfolio</a>
                     <Link to='/services'>Services</Link>
                     <Link to='/aboutUs'>About us</Link>
                     <Link to='/blog'>Blog</Link>
@@ -792,7 +792,7 @@ export default function Home() {
                         <h2>Contact Us</h2>
                         <p>Email: contanct@rangragstudio.in</p>
                         <p>Phone: +91 9328623606</p>
-                        <p>Address: Harmony hub, 203, 80 Feet Rd, near matuki restaurant, Mavdi, Rajkot, Gujarat 360004</p>
+                        <p>Address: Harmony hub, 203, 80 Feet Rd, <br /> near matuki restaurant, Mavdi,<br /> Rajkot, Gujarat 360004 </p>
                     </div>
 
                     <div className="footer-newsletter">
