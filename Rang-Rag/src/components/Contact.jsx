@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import Header from './Header'
 import devtools from 'devtools-detect';
 
 export default function Contact() {
@@ -101,44 +102,7 @@ export default function Contact() {
     <div id='sec1'>
 
 
-      <header>
-
-        <div className="bars" onClick={toggleNavbar}>
-          <i className="fa-solid fa-bars-staggered"></i>
-        </div>
-
-        <div className="logo">
-          <img src="/img/logo.png" alt="Protected" />
-        </div>
-
-        <nav className={isNavVisible ? 'show' : ''}>
-          <Link to='/'>Home</Link>
-          <Link to='/projects'>Projects</Link>
-          <a href="https://rangragstudio.myportfolio.com/" rel="noopener noreferrer">Portfolio</a>
-          <Link to='/services'>Services</Link>
-          <Link to='/aboutUs'>About us</Link>
-          <Link to='/blog'>Blog</Link>
-          <Link to='/contactUs' style={{ color: 'green', fontWeight: 'bold' }}>Contact us</Link>
-        </nav>
-
-        <div className="icon">
-
-          <a href="https://www.instagram.com/rangrag_studio?igsh=MWljc3U0YnZvenlteQ==" target='_blank'>
-            <div className='insta'><i class="fa-brands fa-instagram"></i></div>
-          </a>
-          <a href="https://www.facebook.com/people/RangRag-Interior-Design-Studio/61561135798667/" target='_blank'>
-            <div className="insta"><i class="fa-brands fa-facebook-f"></i></div>
-          </a>
-          <a href="https://www.linkedin.com/company/rangrag-studio/" target='_blank'>
-            <div className="insta"><i class="fa-brands fa-linkedin-in"></i></div>
-          </a>
-          <a href="https://youtube.com/@rangraginterior?si=ysiDjGfY8xrtHrgY" target='_blank'>
-            <div className="insta"><i class="fa-brands fa-youtube"></i></div>
-          </a>
-
-        </div>
-
-      </header>
+      <Header />
 
 
       <div className="contact-us-form">
